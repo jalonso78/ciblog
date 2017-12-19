@@ -1,0 +1,21 @@
+body{ background: #ccbb93; }
+
+.boxShadow {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.panel-heading > h2{
+    margin: 0px; font-size: 20px; font-weight: bold;
+}
+.panel-heading > h2 > a{
+    color: #333;
+}
+.panel-heading > h2 > a:hover, a:active, a:focus{
+    text-decoration: none; color: #000;
+}
+
+.nav-sidebar{
+    background: #fff; border-radius: 4px;
+}
